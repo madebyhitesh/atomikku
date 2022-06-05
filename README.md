@@ -15,13 +15,11 @@ npm install --save atomikku
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'atomikku'
+import { Button } from 'atomikku'
 import 'atomikku/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return <Button>Click Me</Button>
 }
 ```
 
